@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="icon" href="./assets/img/favicon-16x16.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Desafio Pitágoras</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        
+        <link href="./assets/css/conteudo.css" rel="stylesheet" />
+        <link href="./assets/css/calculadora.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <section class="conteudo">
+            <h1>EAI PITÁGORAS,<br><span>PRIMEIRAMENTE NÃO DESISTA!</span></h1>
+            <p>Seu teorema revolucionou o mundo, a importancia dele é enorme já que é usado para resolver problemas básicos de matemática plana e espacial, além de ter possibilitado a criação dos conceitos de seno, cosseno e tangente. Continue firme e ele será a base para medição.</p>
+            <p>Ps.: Você ficará espantado, mas o usarão até para medir o planeta!</p>
+            <h2>VEJA ABAIXO UMA CALCULADORA FEITA A PARTIR DO SEU TEOREMA ( cateto²+cateto² = hipotenusa² )</h2>
+        </section>
+
+        <section class="calculadora">
+            <form id="formulario-calc" class="formulario" action="">
+
+                <div class="formulario__div">
+                    <input id="cat_op" class="formulario__input" type="text">
+                    <div class="formulario__cateto">
+                        <label for="cat_op">cateto oposto</label>
+                    </div>
+                </div>
+
+                <div class="formulario__div">
+                    <input id="cat_adj" class="formulario__input" type="text">
+                    <div class="formulario__cateto">
+                        <label for="cat_adj">cateto adjacente</label>
+                    </div>
+                </div>
+
+                <div class="formulario__div--hip formulario__div">
+                    <input id="hip" class="formulario__input--hip formulario__input" type="text" disabled>
+                    <div class="formulario__hipotenusa">
+                        <label for="hip">hipotenusa</label>
+                    </div>
+                </div>
+
+                <div class="formulario__botoes">
+                    <button id="bt-limpar" class="formulario__bt-limpar" type="reset">limpar</button>
+                    <button id="bt-calc" class="formulario__bt-calc" type="submit">calcular</button>
+                </div>
+
+            </form>
+        </section>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

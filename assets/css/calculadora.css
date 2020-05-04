@@ -1,0 +1,112 @@
+.calculadora {
+    background-color: #C3FFE9;
+    padding: 1.6rem;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.formulario__input {
+    border: .3rem solid #48038C;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    height: 5rem;
+    padding: 0 1rem 0 1rem;
+    width: 45%;
+}
+.formulario__cateto {
+    align-items: center;
+    background-color: #FF88D6;
+    border: .3rem solid #48038C;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    box-sizing: border-box;
+    color: #48038C;
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    height: 5rem;
+    justify-content: center;
+    width: 54%;
+}
+.formulario__hipotenusa {
+    align-items: center;
+    background-color: #F2E205;
+    border: .3rem solid #48038C;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    box-sizing: border-box;
+    color: #48038C;
+    font-weight: bold;
+    display: flex;
+    font-size: 2rem;
+    height: 5rem;
+    justify-content: center;
+    width: 54%;
+}
+
+.formulario__botoes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formulario__bt-limpar {
+    width: 48%;
+    background-color: #ffffff;
+    border: .3rem solid #48038C;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #48038C;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 5rem;
+}
+
+.formulario__bt-calc {
+    width: 48%;
+    background-color: #05F29B;
+    border: .3rem solid #48038C;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #48038C;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 5rem;
+}
+
+.formulario__bt-limpar:active, .formulario__bt-calc:active {
+    background-color: #48038C;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 680px ){
+    .formulario {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .formulario__div {
+        width: 48%;
+    }
+    .formulario__div--hip {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .formulario__input--hip {
+        width: 74%;
+    }
+    .formulario__hipotenusa {
+        width: 26%;
+    }
+}

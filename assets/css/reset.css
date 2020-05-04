@@ -1,0 +1,25 @@
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+
+@media screen and (min-width: 680px ){
+    body{
+        width: 658px;
+        margin: 0 auto;
+    }
+}

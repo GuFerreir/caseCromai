@@ -1,0 +1,28 @@
+.conteudo {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #A7A7A7;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+span {
+    color: #48038C;  
+    font-size: 3.5rem;
+}
+
+p, h2 {
+    font-size: 1.6rem;
+}
+
+p {
+    color: #303030;
+    font-weight: 500;
+}
+
+h2 {
+    color: #48038C;
+    font-weight: bold;
+}
